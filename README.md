@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Gestão financeira
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto de uma aplicação para gestão financeira, usando styled components e react-icons.
 
 ## Available Scripts
 
