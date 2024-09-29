@@ -3,9 +3,9 @@ import React from "react";
 
 
 
-const ResumeItem = ({title, Icon, value }) => {
+const ResumeItem = ({ id, title, Icon, value }) => {
   return (
-    <C.Container>
+    <C.Container id={id}>
       <C.Header>
         <C.HeaderTitle>{title}</C.HeaderTitle>
         <Icon />

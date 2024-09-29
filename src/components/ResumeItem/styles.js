@@ -3,7 +3,17 @@ import styled from "styled-components";
 export const Container = styled.div`
     flex-direction: column;
     align-items: center;
-    background-color: #DEDEDEFF;
+    background-color: ${props => {
+        switch (props.id) {
+            case '1':
+                return '#B7F9C1FF';
+            case '2':
+                return '#F8C9C9FF';
+            default:
+                return '#E0E0E0FF';
+        }
+    }};
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 30%;
     padding: 5px 15px;
